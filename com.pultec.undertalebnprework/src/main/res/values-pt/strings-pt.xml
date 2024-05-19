@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Undertale BnP Rework</string>
+    <string name="app_id">Undertale BnP Rework</string>
+    <string name="banner_desc">Banner</string>
+    <string name="menu_settings">Configuración</string>
+    <string name="menu_exit">Salir</string>
+    <string name="xperiaplayoptimized_content">verdadero</string>
+    <string name="billing_not_supported_title">No se pueden realizar compras</string>
+    <string name="billing_not_supported_message">El servicio de facturación del mercado no está disponible en este momento. Puedes seguir utilizando esta aplicación, pero no podrás realizar ninguna compra.</string>
+    <string name="billing_failed_title">Compra fallida</string>
+    <string name="billing_failed_message">El servicio de facturación del mercado no pudo procesar tu compra.</string>
+    <string name="cannot_connect_title">No se puede conectar al mercado</string>
+    <string name="cannot_connect_message">Esta aplicación no puede conectarse al mercado. Tu versión del mercado puede estar desactualizada. Puedes seguir utilizando esta aplicación, pero no podrás realizar compras.</string>
+    <string name="restoring_transactions">Restaurando transacciones del mercado</string>
+    <string name="help_url" formatted="false">http://market.android.com/support/bin/answer.py?answer=1050566&amp;hl=%lang%&amp;dl=%region%</string>
+    <string name="learn_more">Aprende más</string>
+    <string name="license_fail">No se pudo obtener una licencia válida, por favor asegúrate de haber comprado este producto.</string>
+    <string name="text_paused_cellular">¿Te gustaría habilitar las descargas mediante conexiones celulares? Dependiendo de tu plan de datos, esto podría costarte dinero.</string>
+    <string name="text_paused_cellular_2">Si eliges no habilitar las descargas mediante conexiones celulares, la descarga se reanudará automáticamente cuando haya Wi-Fi disponible.</string>
+    <string name="text_button_resume_cellular">Reanudar descarga</string>
+    <string name="text_button_work">Discord</string>
+    <string name="text_button_wifi_settings">Configuración de Wi-Fi</string>
+    <string name="text_button_pause">Pausar descarga</string>
+    <string name="text_button_resume">Reanudar descarga</string>
+    <string name="text_button_cancel">Cancelar</string>
+    <string name="text_button_play">Jugar</string>
+    <string name="text_button_about">Acerca de</string>
+    <string name="text_button_errors">Informar error</string>
+    <string name="app_name_ver">Undertale BnP Rework</string>
+    <string name="android_shaders">Shaders\n(¿Se cuelga tu teléfono? Desactiva esta opción)</string>
+    <string name="check_game_files">Desactivar parche externo\n(Actívalo si tu teléfono es superior a Android 10)</string>
+    <string name="credits">Undertale BnP Rework 1.0.0\nPruebas de usuario-ver\nEste port fue realizado por:\nPultec software\nTobyfox (Original de Undertale)\nEquipo BnP\nTodos los derechos reservados Este port fue realizado sin fines de lucro\nProducto no comercial</string>
+    <string name="descripcion">Proporcionar información sobre el error "para enviar esta información debes enviarla por correo electrónico"</string>
+    <string name="tutorial_title">Cómo funciona</string>
+    <string name="Tutorial_content">(1) Necesitas copiar el archivo data.win de Steam a tu teléfono\n(2) y renombrarlo como game.droid\n(3) luego copia el archivo a /android/data/com.pultecsoftware.undertalenprework/files/game files/\n Recuerda jugar Aceptar permisos</string>
+    <string name="Game_not_found">Juego no encontrado</string>
+    <string name="error">Error</string>
+    <string name="message_error">Teléfono incompatible: el juego no se ejecutará debido a incompatibilidad de bibliotecas"</string>
+    <string name="send_email">Enviar un correo electrónico</string>
+    <string name="no_email_app_message">No se encontró ninguna aplicación de correo electrónico</string>
+    <string name="ini_file_created_successfully">Shaders activados/desactivados correctamente</string>
+    <string name="error_creating_ini_file">Error al activar/desactivar shader ¿faltan permisos?</string>
+    <string name="armv7">desactivar verificación para teléfonos de 32 bits\n(inestable)</string>
+    <string name="cache">carregando arquivos em cache</string>
+</resources>

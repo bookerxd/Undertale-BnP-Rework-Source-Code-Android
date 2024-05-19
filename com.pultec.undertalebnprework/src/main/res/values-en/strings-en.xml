@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Undertale BnP Rework</string>
+    <string name="app_id">Undertale BnP Rework</string>
+    <string name="banner_desc">Banner</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_exit">Exit</string>
+    <string name="xperiaplayoptimized_content">true</string>
+    <string name="billing_not_supported_title">Can\'t make purchases</string>
+    <string name="billing_not_supported_message">The Market billing service is not available at this time. You can continue to use this app but you won\'t be able to make any purchases.</string>
+    <string name="billing_failed_title">Purchase failed</string>
+    <string name="billing_failed_message">The Market billing service was unable to process your purchase.</string>
+    <string name="cannot_connect_title">Can\'t connect to Market</string>
+    <string name="cannot_connect_message">This app cannot connect to Market. Your version of Market may be out of date. You can continue to use this app but you won\'t be able to make purchases.</string>
+    <string name="restoring_transactions">Restoring Market transactions</string>
+    <string name="help_url" formatted="false">http://market.android.com/support/bin/answer.py?answer=1050566&amp;hl=%lang%&amp;dl=%region%</string>
+    <string name="learn_more">Learn more</string>
+    <string name="license_fail">Unable to get a valid license, please ensure that you have purchased this product.</string>
+    <string name="text_paused_cellular">Would you like to enable downloading over cellular connections? Depending on your data plan, this may cost you money.</string>
+    <string name="text_paused_cellular_2">If you choose not to enable downloading over cellular connections, the download will automatically resume when wi-fi is available.</string>
+    <string name="text_button_resume_cellular">Resume download</string>
+    <string name="text_button_work">Discord</string>
+    <string name="text_button_wifi_settings">Wi-Fi settings</string>
+    <string name="text_button_pause">Pause Download</string>
+    <string name="text_button_resume">Resume Download</string>
+    <string name="text_button_cancel">Cancel</string>
+    <string name="text_button_play">Play</string>
+    <string name="text_button_about">about</string>
+    <string name="text_button_errors">Report bug</string>
+    <string name="app_name_ver">Undertale BnP Rework</string>
+    <string name="android_shaders">Shaders\n(Does Your Phone Crash? Disable This Option)</string>
+    <string name="check_game_files">Disable External Patch\n(Activate It If Your Phone Is Higher Than Android 10)</string>
+    <string name="credits">Undertale BnP Rework 1.0.0\nUser Testing-ver\nThis port is made by:\nPultec software\nTobyfox (Undertale Original)\nBnP Team\nAll rights reserved This port is made without profit\nNon-commercial product</string>
+    <string name="descripcion">Provide information about the error "to send this information you have to send it by email</string>
+    <string name="tutorial_title">How to Work</string>
+    <string name="Tutorial_content">(1) you need to copy the data.win file from Steam to your phone\n(2) and rename it as game.droid\n(3) then copy the file to /android/data/com.pultecsoftware.undertalenprework/files/game files/\n Play Remember Accept permissions</string>
+    <string name="Game_not_found">Game Not Found</string>
+    <string name="error">Error</string>
+    <string name="message_error">Incompatible phone: the game will not run due to library incompatibility"</string>
+    <string name="send_email">Send an e-mail</string>
+    <string name="no_email_app_message">No email app found</string>
+    <string name="ini_file_created_successfully">Shaders Activated/deactivated successfully</string>
+    <string name="error_creating_ini_file">Error when activating/deactivating shader missing permissions?</string>
+    <string name="armv7">disable verification for 32-bit phones\n(unstable)</string>
+    <string name="cache">loading cache files</string>
+</resources>

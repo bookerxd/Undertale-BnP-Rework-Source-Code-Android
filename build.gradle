@@ -1,0 +1,18 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    ext {
+        agp_version = '7.4.0'
+    }
+    repositories {
+        google() // Aquí es donde debes agregar el repositorio de Google para las herramientas de compilación
+        jcenter()
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:7.3.1" // Versión actualizada de Gradle
+    }
+}
+
+allprojects {
+    repositories {
+    }
+}

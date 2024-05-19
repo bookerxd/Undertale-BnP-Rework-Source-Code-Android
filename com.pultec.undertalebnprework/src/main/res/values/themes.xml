@@ -1,0 +1,76 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="oldtheme" parent="Theme.AppCompat.DayNight.DarkActionBar" translatable="false">
+
+    </style>
+    <!-- Base application theme. -->
+    <style name="Theme.Material3AlertDialog" parent="Theme.Material3.Dark.Dialog.Alert" translatable="false">
+        <!-- Desactivar el modo de pantalla completa -->
+        <item name="colorPrimary" translatable="false">@color/md_theme_dark_primary</item>
+        <item name="colorPrimaryVariant" translatable="false">@color/md_theme_dark_onError</item>
+        <item name="colorOnPrimary" translatable="false">@color/md_theme_dark_onPrimary</item>
+        <!-- Secondary brand color. -->
+        <item name="android:windowBackground" translatable="false">@drawable/rounded_dialog_bg</item>
+        <item name="colorSecondary" translatable="false">@color/md_theme_dark_secondary</item>
+        <item name="android:background" translatable="false">@color/md_theme_dark_background</item>
+        <item name="colorSecondaryVariant" translatable="false">@color/md_theme_dark_onPrimary</item>
+        <item name="colorOnSecondary" translatable="false">@color/md_theme_dark_onSecondary</item>
+        <item name="colorOnBackground" translatable="false">@color/md_theme_dark_onBackground</item>
+        <item name="colorBackgroundFloating" translatable="false">@color/md_theme_dark_background</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" translatable="false">@color/md_theme_dark_background</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="AndroidAppTheme" parent="Theme.Material3.Dark.NoActionBar" translatable="false">
+        <!-- Primary brand color. -->
+        <item name="android:statusBarColor" translatable="false">@color/md_theme_dark_background</item>
+        <item name="colorPrimary" translatable="false">@color/md_theme_dark_primary</item>
+        <item name="colorPrimaryVariant" translatable="false">@color/md_theme_dark_errorContainer</item>
+        <!-- color texto en botones -->
+        <item name="colorOnPrimary" translatable="false">@color/md_theme_light_background</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary" translatable="false">@color/md_theme_dark_secondary</item>
+        <item name="colorSecondaryVariant" translatable="false">@color/md_theme_dark_error</item>
+        <item name="colorOnSecondary" translatable="false">@color/md_theme_light_background</item>
+        <item name="colorSecondaryContainer" translatable="false">@color/md_theme_dark_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer" translatable="false">@color/md_theme_dark_onSecondaryContainer</item>
+        <item name="colorTertiary" translatable="false">@color/md_theme_dark_tertiary</item>
+        <item name="colorOnTertiary" translatable="false">@color/md_theme_dark_onTertiary</item>
+        <item name="colorTertiaryContainer" translatable="false">@color/md_theme_dark_tertiaryContainer</item>
+        <item name="colorOnTertiaryContainer" translatable="false">@color/md_theme_dark_onTertiaryContainer</item>
+        <item name="colorError" translatable="false">@color/md_theme_dark_error</item>
+        <item name="colorErrorContainer" translatable="false">@color/md_theme_dark_errorContainer</item>
+        <item name="colorOnError" translatable="false">@color/md_theme_dark_onError</item>
+        <item name="colorOnErrorContainer" translatable="false">@color/md_theme_dark_onErrorContainer</item>
+        <item name="android:colorBackground" translatable="false">@color/md_theme_dark_background</item>
+        <item name="colorOnBackground" translatable="false">@color/md_theme_dark_onBackground</item>
+        <item name="colorSurface" translatable="false">@color/md_theme_dark_surface</item>
+        <item name="colorOnSurface" translatable="false">@color/md_theme_dark_onSurface</item>
+        <item name="colorSurfaceVariant" translatable="false">@color/md_theme_dark_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant" translatable="false">@color/md_theme_dark_onSurfaceVariant</item>
+        <item name="colorOutline" translatable="false">@color/md_theme_dark_outline</item>
+        <item name="colorOnSurfaceInverse" translatable="false">@color/md_theme_light_onError</item>
+        <item name="colorSurfaceInverse" translatable="false">@color/md_theme_dark_inverseSurface</item>
+        <item name="colorPrimaryInverse" translatable="false">@color/md_theme_dark_inversePrimary</item>
+        <item name="android:background" translatable="false">@color/md_theme_dark_background</item>
+        <item name="android:windowBackground" translatable="false">@drawable/rounded_dialog_bg</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="Theme.Material3DialogEditText" parent="Theme.Material3.Dark.Dialog" translatable="false">
+        <!-- Primary brand color. -->
+        <!-- Desactivar el modo de pantalla completa -->
+        <item name="colorPrimary" translatable="false">@color/md_theme_dark_primary</item>
+        <item name="colorPrimaryVariant" translatable="false">@color/purple_700</item>
+        <item name="colorOnPrimary" translatable="false">@color/md_theme_dark_onPrimary</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary" translatable="false">@color/md_theme_dark_secondary</item>
+        <item name="android:windowBackground" translatable="false">@drawable/rounded_dialog_bg</item>
+        <item name="android:background" translatable="false">@color/md_theme_dark_background</item>
+        <item name="colorSecondaryVariant" translatable="false">@color/md_theme_dark_onPrimary</item>
+        <item name="colorOnSecondary" translatable="false">@color/md_theme_dark_onSecondary</item>
+        <item name="colorOnBackground" translatable="false">@color/md_theme_dark_onBackground</item>
+        <item name="colorBackgroundFloating" translatable="false">@color/md_theme_dark_background</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" translatable="false">@color/md_theme_dark_background</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

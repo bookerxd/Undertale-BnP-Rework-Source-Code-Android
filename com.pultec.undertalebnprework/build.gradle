@@ -1,0 +1,74 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 34
+
+    defaultConfig {
+        applicationId "com.pultec.undertalebnprework"
+        minSdkVersion 23
+        targetSdkVersion 34
+        multiDexEnabled true
+        versionCode 4
+        versionName 'closed testing'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+
+    splits {
+        abi {
+            enable true
+            reset()
+            include "armeabi-v7a", "arm64-v8a", "x86", "x86_64" // Usa filtros de ABI válidos
+            universalApk true
+        }
+    }
+}
+dependencies {
+    //noinspection GradleCompatible
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0' // Cambia la versión a la más reciente disponible
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'com.google.code.gson:gson:2.10.1'
+    implementation 'androidx.documentfile:documentfile:1.1.0-alpha01'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'com.google.android.material:material:1.6.1'
+    implementation "com.google.android.gms:play-services-games-v2:+"
+    implementation 'com.google.android.play:app-update:2.0.0'
+    implementation files('libs/ini4j-0.5.2.jar')
+// También es importante actualizar las demás dependencias de AndroidX
+}
+
+android {
+    signingConfigs {
+        release {
+            storeFile file("Path to your keystore")
+            storePassword "keystore password"
+            keyAlias "key alias"
+            keyPassword "keystore password"
+        }
+    }
+    compileOptions {
+        sourceCompatibility "1.8"
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    dependenciesInfo {
+        includeInApk false
+        includeInBundle false
+    }
+    buildToolsVersion '34.0.0'
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+            multiDexEnabled false
+        }
+        debug {
+            debuggable false
+        }
+    }
+}

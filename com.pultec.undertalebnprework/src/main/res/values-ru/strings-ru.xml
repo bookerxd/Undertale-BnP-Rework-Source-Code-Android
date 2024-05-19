@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Undertale BnP Rework</string>
+    <string name="app_id">Undertale BnP Rework</string>
+    <string name="banner_desc">Баннер</string>
+    <string name="menu_settings">Настройки</string>
+    <string name="menu_exit">Выйти</string>
+    <string name="xperiaplayoptimized_content">включено</string>
+    <string name="billing_not_supported_title">Оплата недоступна</string>
+    <string name="billing_not_supported_message">Сервис оплаты покупок недоступен на данный момент. Вы можете продолжить использовать приложение, но вы не сможете совершать покупки.</string>
+    <string name="billing_failed_title">Оплата не прошла</string>
+    <string name="billing_failed_message">Сервис оплаты покупок не обработал вашу покупку.</string>
+    <string name="cannot_connect_title">Невозможно подключиться к магазину приложений</string>
+    <string name="cannot_connect_message">Приложение не может подключиться к магазину приложений. Ваша версия магазина приложений может быть устаревшей. Вы можете продолжить пользоваться этим приложением, но вы не сможете совершать транзакции.</string>
+    <string name="restoring_transactions">Восстанавливаем транзакции магазина приложений</string>
+    <string name="help_url" formatted="false">http://market.android.com/support/bin/answer.py?answer=1050566&amp;hl=%lang%&amp;dl=%region%</string>
+    <string name="learn_more">Узнать больше</string>
+    <string name="license_fail">Не удалось получить действующую лицензию, пожалуйста удостоверьтесь, что вы приобрели этот товар.</string>
+    <string name="text_paused_cellular">Хотите ли вы включить загрузку по сотовой связи? В зависимости от вашего тарифа это может стоить вам определённую сумму денег.</string>
+    <string name="text_paused_cellular_2">Если вы решили не разрешать загрузку по сотовой связи, загрузка продолжится автоматически, когда вы подключитесь к сети Wi-Fi.</string>
+    <string name="text_button_resume_cellular">Продолжить загрузку</string>
+    <string name="text_button_work">Дискорд</string>
+    <string name="text_button_wifi_settings">Настройки Wi-Fi</string>
+    <string name="text_button_pause">Приостановить Установку</string>
+    <string name="text_button_resume">Продолжить Установку</string>
+    <string name="text_button_cancel">Закрыть</string>
+    <string name="text_button_play">Играть</string>
+    <string name="text_button_about">о</string>
+    <string name="text_button_errors">Пожаловаться на ошибку</string>
+    <string name="app_name_ver">Undertale BnP Rework</string>
+    <string name="android_shaders">Шейдеры\n(Игра закрывается на вашем телефоне? Выключите эту настройку.)</string>
+    <string name="check_game_files">Отключить Внешние Сохранения\n(Включайте это, если ваш телефон имеет операционную систему выше, или равную Android 10)</string>
+    <string name="credits">Undertale BnP Rework 1.0.0\nUser Testing-ver\nЭтот порт был сделан:\nPultec software\nTobyfox (Оригинальный Undertale)\nКоманда BnP\nВсе права защищены. Этот порт сделан без прибыли\nНекоммерческий продукт\nПеревод на Русский язык: NC(neocatkot)</string>
+    <string name="descripcion">Предоставьте информацию об ошибке "чтобы отправить информацию, вы должны отправить её на электронную почту</string>
+    <string name="tutorial_title">Как это использовать</string>
+    <string name="Tutorial_content">(1) вы должны скопировать data.win файл из Steam на ваш телефон\n(2) и переименовать его в game.droid\n(3) потом скопируйте его в /android/data/com.pultecsoftware.undertalenprework/files/game files/\n Играть Не забудьте принять права</string>
+    <string name="Game_not_found">Игра Не Найдена</string>
+    <string name="error">Ошибка</string>
+    <string name="message_error">Несовместимость телефона: игра не будет запущена из-за несовместимости библиотек"</string>
+    <string name="send_email">Отправить письмо</string>
+    <string name="no_email_app_message">Не найдено приложений электронной почты</string>
+    <string name="ini_file_created_successfully">Шейдеры включены/выключены успешно</string>
+    <string name="error_creating_ini_file">Ошибка при включение/выключение шейдеров, у приложения недостаточно прав?</string>
+    <string name="armv7">отключить проверку для 32 разрядных телефонов\n(нестабильно)</string>
+    <string name="cache">загружаем временные файлы</string>
+</resources>
